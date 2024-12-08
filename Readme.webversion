@@ -1,0 +1,21 @@
+# Proyecto Web - Bookshelter
+
+## Descripción
+Esta es la versión web del sistema Bookshelter. Permite a los usuarios consultar sus préstamos, ver libros disponibles y acceder a sus datos de perfil.
+
+## Requisitos
+1. Instalar **XAMPP** (https://www.apachefriends.org/).
+2. Copiar la carpeta `mi_proyecto` a la ruta `C:/xampp/htdocs`.
+3. Configurar la base de datos:
+   - Cargar el archivo `db.sql` en **phpMyAdmin**.
+   - Asegurarse de que la conexión de base de datos está correctamente configurada en `db.php`.
+
+## Cómo probar
+1. Iniciar Apache y MySQL desde el panel de control de XAMPP.
+2. Abrir el navegador y acceder a `http://localhost/mi_proyecto/index.php`.
+
+## Archivos principales
+- **index.php**: Página principal.
+- **login.php**: Inicio de sesión.
+- **ver_libros.php**: Visualización de catálogo de libros.
+- **mis_prestamos.php**: Consulta de préstamos activos.
